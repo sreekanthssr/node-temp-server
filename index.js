@@ -22,7 +22,7 @@ app.use(function (req, res, next) {
     next();
 });
 
-app.get('/county', (req, res) => {
+app.get('/country', (req, res) => {
   res.send({status : 200, message: 'Success', data:[
     {id: 1, name: 'USA'},
     {id: 2, name: 'UK'},
